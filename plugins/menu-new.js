@@ -22,14 +22,14 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ERFAN*
+│ 👑  Owner » *AHMAD*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
 │ ⚙️  Mode » *[public]*
 │ 🔣  Prefix » *[.]*
-│ 🏷️  creater » *ERFAN AHMAD*
-│ 📚  Commands » *332*
+│ 🏷️  CREATOR »  *AHMAD*
+│ 📚  Commands » *350*
 ⟬★⟭─────────────────
 ╔═══◇◆◇════════════╗
 『 📜 𝗠𝗘𝗡𝗨 𝗦𝗘𝗖𝗧𝗜𝗢𝗡𝗦 』
