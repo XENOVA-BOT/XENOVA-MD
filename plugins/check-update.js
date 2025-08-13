@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/DARKZONE-MD/DARKZONE-MD/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/XENOVA-BOT/XENOVA-MD/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/DARKZONE-MD/DARKZONE-MD';
+    const githubRepo = 'https://github.com/XENOVA-BOT/XENOVA-MD/';
 
     // Check update status
-    let updateMessage = `✅ Your DARKZONE-MD bot is up-to-date!`;
+    let updateMessage = `✅ Your XENOVA-MD bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your DARKZONE-MD bot is outdated!
+      updateMessage = `🚀 Your XENOVA-MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -69,19 +69,20 @@ Use *.update* to update.`;
       `📌 *Bot Name:* DARKZONE-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟](https://github.com/DARKZONE-MD)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇʏᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀ
+](https://github.com/XENOVA-BOT)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/r2ncqh' },
+      image: { url: ' https://files.catbox.moe/cidt8r.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363416743041101@newsletter',
-          newsletterName: '𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟',
+          newsletterJid: '1r',
+          newsletterName: 'Mᴜʜᴀᴍᴍᴀᴅ Aʜᴍᴇʏᴅ 𝕏 Aʙᴅᴜʟ Rᴀғᴀ',
           serverMessageId: 143
         }
       }

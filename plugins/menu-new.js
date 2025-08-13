@@ -286,7 +286,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363416743041101@newsletter',
+                newsletterJid: '',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8cb9h0.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/cidt8r.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8cb9h0.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/cidt8r.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
